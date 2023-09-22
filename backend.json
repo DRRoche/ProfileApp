@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "HVM6iaBiDGSbVykpXsUOVdgT2tS2": {
+      "type": "object",
+      "properties": {
+        "age": {
+          "type": "string",
+          "pattern": "^[0-9]+$"
+        },
+        "gender": {
+          "type": "string",
+          "enum": ["Male", "Female", "Other"]
+        },
+        "hobby": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["age", "gender", "hobby", "image", "name"]
+    },
+    "fS2Ucf1u5pfrmZskyIGVT9LseAD2": {
+      "type": "object",
+      "properties": {
+        "age": {
+          "type": "string",
+          "pattern": "^[0-9]+$"
+        },
+        "gender": {
+          "type": "string",
+          "enum": ["Male", "Female", "Other"]
+        },
+        "hobby": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["age", "gender", "hobby", "image", "name"]
+    },
+    "highScore": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": ["HVM6iaBiDGSbVykpXsUOVdgT2tS2", "fS2Ucf1u5pfrmZskyIGVT9LseAD2", "highScore", "image"]
+}
