@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "31409008-c2ce-4ec2-bc62-ccb03521f1e2",
+                "Y": 600.3906249999999,
+                "RelativeX": 0,
+                "RelativeY": 600,
+                "position": "absolute",
+                "edgeOffsets": 600.3906249999999,
+                "style": {
+                    "position": "absolute",
+                    "left": "9.2%",
+                    "top": "77.71973388305847%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "4e1d203b-652d-429d-8376-da1876f3b058",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Group",
             "label": "Group",
             "translatedName": "Group",
@@ -1890,13 +1920,13 @@
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
                 "TextAlign": "center",
-                "Height": 56,
-                "Width": 375,
+                "Height": 33,
+                "Width": 377,
                 "Visible": true,
                 "X": 0,
-                "Y": 609,
+                "Y": 634,
                 "RelativeX": 0,
-                "RelativeY": 609,
+                "RelativeY": 634,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -1938,7 +1968,7 @@
                 },
                 "ParentId": "31409008-c2ce-4ec2-bc62-ccb03521f1e2",
                 "position": "absolute",
-                "edgeOffsets": 609.9999999999999,
+                "edgeOffsets": 634,
                 "children": ""
             },
             "children": [],
